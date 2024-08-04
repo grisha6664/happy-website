@@ -12,25 +12,4 @@ a {
     color: #666666;
     font-weight: 400;
     font-family: 'Poppins', sans-serif;
-}header {
-    box-shadow: 0 0 5px #000;
-}
-
-.header-nav {
-    display: flex;
-    gap: 32px;
-    align-items: center;
-}
-
-header .container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    height: 100px;
-}
-
-@media screen and (max-width: 1024px) {
-    .header-nav {
-        display: none;
-    }
 }
