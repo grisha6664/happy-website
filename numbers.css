@@ -1,0 +1,30 @@
+#numbers {
+padding: 100px  0 ;
+background-color: #ff5437;
+
+
+}
+#numbers .container {
+display: flex;
+justify-content: space-between;
+gap: 20px; 
+align-items: center;
+flex-direction: row;
+}
+
+
+#numbers p {
+    font-size: 95px;
+    font-weight: 400;
+}
+#numbers span {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+@media screen and (max-width:768px){
+    #numbers .container {
+        flex-direction: column;
+    }
+}
+
